@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    "vercel-build": "npm list || npm install && npm run build"
+    "build": "vite build",
+    "typecheck": "vue-tsc -b",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.13.2",
